@@ -29,8 +29,9 @@ def import_data (folder_name):
 
 # input 2 dataframes, output OLS results for ALL SHARED YEARS 
 def OLS(df1, df2):
-	if len(df1.columns) > 10 && len(df2.columns) > 10:
-		years = range(1970,2014)
+	# catch anual datasets
+	if len(df1.columns) > 10 and len(df2.columns) > 10:
+		years = [str(x) for x in range(1970,2014)]
 		for year in years:
 			for col1 in df1:
 				if year in col1:
@@ -40,6 +41,7 @@ def OLS(df1, df2):
 							continue;
 							#DO OLS OPERATION ON 2 COLUMNS
 							# STORE OLS
+	# catch census datasets
 	else:
 		years = ("1970", "1980", "1991", "2000") # years census was conducted
 		for year in years:
@@ -53,3 +55,5 @@ def OLS(df1, df2):
 							# STORE OLS
 		# return all OLS
 	return;
+
+chdir("/home/cree/workspace/econometrics/")

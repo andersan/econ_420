@@ -1,25 +1,18 @@
-import pandas as pd
-import numpy as np
-from os import chdir
-import statsmodels.api as sm
+import functions
 import data
+from os import chdir
 
-chdir("/home/cree/Downloads/br_econ/")
+#descriptive statistics
+for i in vars(data):
+	if "state_" in i or "municipio_" in i:
+		print(i)
+		print(type(vars(data)[i]))
+#data visualization
 
-# municipal: loop through income and years of study
-test.OLS(test.municipio_renda,test.municipio_ensino)
-
-# municipal: loop through infant mortality and years of study
-test.OLS(test.municipio_ensino,test.municipio_saude)
-
-# municipal: loop through income and infant mortality
-test.OLS(test.municipio_saude,test.municipio_renda)
-
-# state: loop through income and years of study
-test.OLS(test.state_renda,test.state_ensino)
-
-# state: loop through infant mortality and years of study
-test.OLS(test.state_saude,test.state_ensino)
-
-# state: loop through income and infant mortality
-test.OLS(test.state_renda,test.state_saude)
+#OLS functions
+functions.OLS(data.municipio_renda,data.municipio_ensino)
+functions.OLS(data.municipio_ensino,data.municipio_saude)
+functions.OLS(data.municipio_saude,data.municipio_renda)
+functions.OLS(data.state_renda,data.state_ensino)
+functions.OLS(data.state_saude,data.state_ensino)
+functions.OLS(data.state_renda,data.state_saude)

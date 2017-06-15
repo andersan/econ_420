@@ -2,16 +2,17 @@ import pandas as pd
 import numpy as np
 from os import chdir
 import glob
-import test
+import functions
 
 #improvements: change variable names to be more intuitive
 
 chdir("/home/cree/Downloads/br_econ/")
+
 count = 0
 mun, state = {}, {}
 
-mun = import_data("mun")
-state = import_data("state")
+mun = functions.import_data("mun")
+state = functions.import_data("state")
 
 # municipal dataframes
 municipio_renda = mun.get('mun/Renda_municipios - Renda familiar - per capita - media.csv')
@@ -27,8 +28,8 @@ state_populacao_anual = state.get('state/populcao_estado_1980-2014.csv')
 state_populacao_censo = state.get('state/populacao_residente_estado_1970-2000.csv')
 
 #calcular mortalidade infantil por estado
-df9 = df8[['Sigla', 'Código', 'Estado']].copy()
-df10 = df2.drop('Código', 1).groupby('Sigla').mean()
+df9 = state_populacao_censo[['Sigla', 'Código', 'Estado']].copy()
+df10 = municipio_saude.drop('Código', 1).groupby('Sigla').mean()
 df10.reset_index(level='Sigla', inplace=True)
 
 state_saude = pd.merge(df9,df10, on='Sigla')
