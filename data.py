@@ -14,6 +14,8 @@ mun, state = {}, {}
 mun = functions.import_data("mun")
 state = functions.import_data("state")
 
+chdir("/home/cree/workspace/econometrics/")
+
 # municipal dataframes
 municipio_renda = mun.get('mun/Renda_municipios - Renda familiar - per capita - media.csv')
 municipio_ensino = mun.get('mun/mun_media_anos_de_estudos_25_anos_+_todos.csv')

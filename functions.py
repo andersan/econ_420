@@ -14,9 +14,6 @@ OLS: run an OLS on the two dataframes that are included. automagically runs
 ''' 
 
 
-chdir("/home/cree/Downloads/br_econ/")
-mun, state = {}, {}
-
 # import all CSV files with data into python  
 def import_data (folder_name):
 	dictionary = {}
@@ -26,6 +23,7 @@ def import_data (folder_name):
 		# store dataframe in a list of values, deleting empty columns from dataset
 		dictionary[filename] = store.dropna(axis=1,how='all')
 	return dictionary
+
 
 # input 2 dataframes, output OLS results for ALL SHARED YEARS 
 def OLS(df1, df2):
@@ -56,4 +54,33 @@ def OLS(df1, df2):
 		# return all OLS
 	return;
 
-chdir("/home/cree/workspace/econometrics/")
+# return years used in dataset, taken from column headers
+def years(df):
+	years = []
+	for i in df.columns:
+		try:
+			years.append(int(i))
+		except:
+			continue;
+	return years;
+
+def graph(dataframe, graph_title, x_axis_title, y_axis_title, index_var):
+	fontP = FontProperties()
+	fontP.set_size('small')
+
+
+	# plot states
+	dc = dataframe.copy()
+	dc.set_index(index_var, inplace=True)
+	years = functions.years(dc)
+	for values in dc.values:
+		plt.plot(years, np.delete(values, [0,1]))
+
+
+	plt.title(graph_title)
+	plt.xlabel(x_axis_title)
+	plt.ylabel(y_axis_title)
+	plt.legend(dc.index.astype(str), loc='center left', bbox_to_anchor=(1, 0.5), prop = fontP)
+
+	plt.show()
+
