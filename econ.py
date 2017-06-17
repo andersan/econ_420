@@ -1,30 +1,20 @@
 import functions
 import data
-from os import chdir
-import matplotlib.pyplot as plt
 import pandas as pd
+import numpy as np
+import statsmodels.api as sm
 
 
-#descriptive statistics
-for i in vars(data):
-	if "state_" in i or "municipio_" in i:
-		print(i)
-		print(type(vars(data)[i]))
-#data visualization
-dc = data.state_saude
-data.state_saude.dtypes
-plt.plot(dc)
-plt.legend(dc.columns)
-dcsummary = pd.DataFrame([dc.mean(), dc.sum()],index=['Mean','Total'])
+renda, ensino = functions.data_prep(data.state_renda, data.state_ensino)
+rendaXensino = sm.OLS(ensino.loc['Santa Catarina'], renda.loc['Santa Catarina'], missing='drop').fit()
+print(rendaXensino.summary())
+rendaXensino = sm.OLS(ensino['1993'], renda['1993'], missing='drop').fit()
+print(rendaXensino.summary())
+# for row in renda.itertuples():
+	# rendaXensino = sm.OLS(ensino.loc[row[0]], renda.loc['Santa Catarina'], missing='drop').fit()
+	# print(rendaXensino.summary())
+## cant compare 2 large tables like this... need to grab cities and states ONE BY ONE and compare them?
 
-plt.table(cellText=dcsummary.values,colWidths = [0.25]*len(dc.columns),
-          rowLabels=dcsummary.index,
-          colLabels=dcsummary.columns,
-          cellLoc = 'center', rowLoc = 'center',
-          loc='top')
-fig = plt.gcf()
-
-plt.show()
 
 # #OLS functions
 # functions.OLS(data.municipio_renda,data.municipio_ensino)
