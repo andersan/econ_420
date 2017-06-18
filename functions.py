@@ -26,6 +26,30 @@ def import_data (folder_name):
     dictionary[filename] = store.dropna(axis=1,how='all')
   return dictionary
 
+def data_prep(df):
+  # drop unused rows
+  df = df.transpose()
+  # set state names and city codes as column labels, drop unused rows
+  if 'Estado' in df.index:
+    df.columns = df.iloc[2]
+    df = df.drop(['Código','Sigla','Estado'])
+  elif 'Município' in df.index:
+    df.columns = df.iloc[1]
+    df = df.drop(['Código','Sigla','Município'])
+  df.columns.names = ['']
+  # create year column 
+  df['Year'] = df.index
+  # df.index = range(len(df.index))
+  return df;
+
+def numpy_to_pd(df):
+  for col in df:
+    try:
+      df[col] = pd.to_numeric(df[col])
+    except:
+      for col in df[col]:
+        print(col) 
+  return df;
 
 # input 2 dataframes, output OLS results for ALL SHARED YEARS 
 def OLS(df1, df2):
@@ -59,30 +83,26 @@ def OLS(df1, df2):
 # return years used in dataset, taken from column headers
 def years(df):
   years = []
-  for i in df.columns:
+  for i in df['Year']:
     try:
       years.append(int(i))
     except:
       continue;
   return years;
 
-def data_prep(df1, df2):
-  df1 = df1.drop(['Código','Sigla'], axis=1)
-  df2 = df2.drop(['Código','Sigla'], axis=1)
-  for df in [df1, df2]:
-    if 'Estado' in df.columns:
-      df.set_index('Estado', inplace=True)
-    elif 'Municipio' in df.columns:
-      df.set_index('Municipio', inplace=True)
-
+def compare_years(df1, df2):
   #determine what years of data are shared across dataframes
   shared_years = [val for val in years(df1) if val in years(df2)]
-  for y in df1.columns:
+  for y in df1['Year']:
     if int(y) not in shared_years:
-      df1 = df1.drop(y, axis=1)
-  for y in df2.columns:
+      mask = df1['Year'] == y
+      first, df1 = df1[mask], df1[~mask]
+      # df1 = df1.drop(y)
+  for y in df2['Year']:
     if int(y) not in shared_years:
-      df2 = df2.drop(y, axis=1)
+      mask = df2['Year'] == y
+      first, df2 = df2[mask], df2[~mask]
+      # df2 = df2.drop(y)
   return df1, df2
 
 
