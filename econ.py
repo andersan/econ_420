@@ -48,11 +48,22 @@ def OLS(df1,df2,df3 = pd.DataFrame({'A' : []})):
 #  TODO:
 # 
 #  - fixed effects model (with error and dummy var/constant)
+#       - implement dummy vars
+#       - figure out how to use pansy formulas
+#       - use latex to print models for paper
 # 
 #  - R2, std deviations
+#       - choose which statistics to measure 
+#           - what locations to run regressions on??? what indicators???
 # 
 #  - scatterplots
+#       - build a fit graph for ed, income and health functions 
+#
+#  - OLS/FE: run regressions
 # 
+#  - final stretch:
+#       - export data/graphs for paper
+#       - explain data and turn in paper
 
 
 
