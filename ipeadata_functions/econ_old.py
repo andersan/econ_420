@@ -1,11 +1,8 @@
 import functions
-# import data
+import data
 import pandas as pd
 import numpy as np
 import statsmodels.api as sm
-from os import chdir
-
-chdir("/home/cree/Downloads/br_econ/MHDI/")
 
 # input any two variables and output OLS regressions for all states
 # (parameters: two state level dataframes from data.py)
@@ -44,48 +41,13 @@ def OLS(df1,df2,df3 = pd.DataFrame({'A' : []})):
         results.append(est)
   return results;
 
-# 
-#  TODO:
-# 
-#  - fixed effects model (with error and dummy var/constant)
-# 
-#  - R2, std deviations
-# 
-#  - scatterplots
-# 
+#compate
+# def OLS_all():
+	
 
-
-
-
-# variables that can be compared:
-#             inf-mortality
-#             life-ex
-#             locale
-#             locale_type
-#             year
-#             MHDI
-#             MHDI-income
-#             MHDI-life-ex
-#             MHDI-education
-#             education
-#             income
-# 
-# examples
-# linear OLS uses:
-# basic_ols = sm.OLS(regions['education'],regions[['income','life-ex', 'inf-mortality']],missing='drop').fit()
-# print(basic_ols.summary())
-
-
-# cities  = pd.read_csv("formatted_data_cities.csv")
-# states = pd.read_csv("formatted_data_states.csv")
-# MAs     = pd.read_csv("formatted_data_metro_areas.csv")
-regions = pd.read_csv("formatted_data_regional_divisions.csv") 
-print(regions['education'])
-# basic_ols = sm.OLS(regions['education'],regions[['income','life-ex', 'inf-mortality']],missing='drop').fit()
-# print(basic_ols.summary())
 
 # print(OLS(data.state_ensino, data.state_populacao_anual))
-# print(OLS(data.mun_ensino,data.mun_renda, data.mun_saude))
+print(OLS(data.mun_ensino,data.mun_renda, data.mun_saude))
 
 
 

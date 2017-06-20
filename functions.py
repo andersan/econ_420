@@ -13,98 +13,44 @@ those methods include:
 import_data(folder): import data to pandas dataframes from csvs
 OLS: run an OLS on the two dataframes that are included. automagically runs 
       on all of the correct columns
-''' 
-
+'''
 
 # import all CSV files with data into python  
-def import_data (folder_name):
-  dictionary = {}
-  for filename in glob.glob(folder_name+"/*.csv"):
-    # read CSV file into Pandas dataframe
-    store = pd.read_csv(filename, sep=';')
-    # store dataframe in a list of values, deleting empty columns from dataset
-    dictionary[filename] = store.dropna(axis=1,how='all')
-  return dictionary
+# TODO: refactor code to make "year" sorting/dataset shifting optional 
+def import_data (filename, columns, num_rows):
+  df = pd.read_csv(filename, sep=';', names = columns, decimal=',', encoding = "ISO-8859-1")
+  df = df.drop(0) # drop row of indicator names, use column names instead
+  # loop over every column in df
+  df['year'] = None
+  # create dataframe so DF can just be iterated over
+  store = df.copy()
+  for col in df.iloc[:,3:len(columns)]:
+    # make data usable as a float (numeric value) when using commas
+    # df[col] = pd.to_numeric(df[col].str.replace(',','.'))
+    year = int(col[-4:])
+    colName = col[:-5]
+    for index,entry in df[col].iteritems():
+      locale = store.loc[index,'locale']
+      if  ((store['locale'] == locale) & (store['year'] == year)).any():
+        index_1 = store[(store['locale'] == locale)&(store['year'] == year)].index
+        store.set_value(index_1[0], colName, entry)
+      else:
+        # new row
+        df2 = pd.DataFrame([[entry,locale,year]], columns=[col[:-5],'locale','year'])
+        store = store.append(df2, ignore_index=True)# add this data to pandas dataframe 
+    # drop indicator-year column, data has been moved to a 'year' var and an indicator var
+    store = store.drop(col, axis=1)
+  print(store, store.columns)
+  # cut empty rows from dataframe
+  slice_index = num_rows - 1
+  store = store[slice_index:].reset_index(drop=True)
+  # export dataframe to csv - can load faster for analysis
+  store.to_csv('formatted_' + filename)
+  return store;
 
 def data_prep(df):
-  # drop unused rows
-  df = df.transpose()
-  # set state names and city codes as column labels, drop unused rows
-  if 'Estado' in df.index:
-    df.columns = df.iloc[2]
-    df = df.drop(['Código','Sigla','Estado'])
-  elif 'Município' in df.index:
-    df.columns = df.iloc[1]
-    df = df.drop(['Código','Sigla','Município'])
-  df.columns.names = ['']
-  # create year column 
-  df['Year'] = df.index
-  # df.index = range(len(df.index))
+  # nothing?
   return df;
-
-def numpy_to_pd(df):
-  for col in df:
-    try:
-      df[col] = pd.to_numeric(df[col])
-    except:
-      for col in df[col]:
-        print(col) 
-  return df;
-
-# input 2 dataframes, output OLS results for ALL SHARED YEARS 
-def OLS(df1, df2):
-  # catch anual datasets
-  if len(df1.columns) > 10 and len(df2.columns) > 10:
-    years = [str(x) for x in range(1970,2014)]
-    for year in years:
-      for col1 in df1:
-        if year in col1:
-          for col2 in df2:
-            if year in col2:
-              #print(year,col1,col2) 
-              continue;
-              #DO OLS OPERATION ON 2 COLUMNS
-              # STORE OLS
-  # catch census datasets
-  else:
-    years = ("1970", "1980", "1991", "2000") # years census was conducted
-    for year in years:
-      for col1 in df1:
-        if year in col1:
-          for col2 in df2:
-            if year in col2:
-              #print(year,col1,col2) 
-              continue;
-              #DO OLS OPERATION ON 2 COLUMNS
-              # STORE OLS
-    # return all OLS
-  return;
-
-# return years used in dataset, taken from column headers
-def years(df):
-  years = []
-  for i in df['Year']:
-    try:
-      years.append(int(i))
-    except:
-      continue;
-  return years;
-
-def compare_years(df1, df2):
-  #determine what years of data are shared across dataframes
-  shared_years = [val for val in years(df1) if val in years(df2)]
-  for y in df1['Year']:
-    if int(y) not in shared_years:
-      mask = df1['Year'] == y
-      first, df1 = df1[mask], df1[~mask]
-      # df1 = df1.drop(y)
-  for y in df2['Year']:
-    if int(y) not in shared_years:
-      mask = df2['Year'] == y
-      first, df2 = df2[mask], df2[~mask]
-      # df2 = df2.drop(y)
-  return df1, df2
-
 
 def graph(dataframe, graph_title, x_axis_title, y_axis_title, index_var):
   legendFont = FontProperties()
