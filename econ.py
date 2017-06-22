@@ -4,45 +4,9 @@ import pandas as pd
 import numpy as np
 import statsmodels.api as sm
 from os import chdir
+import statsmodels.formula.api as smf
 
 chdir("/home/cree/Downloads/br_econ/MHDI/")
-
-# input any two variables and output OLS regressions for all states
-# (parameters: two state level dataframes from data.py)
-def OLS(df1,df2,df3 = pd.DataFrame({'A' : []})):
-    # 2 arguments (simple regression)
-  if df3.empty:
-    df1,df2 = functions.compare_years(functions.numpy_to_pd(df1), \
-                functions.numpy_to_pd(df2))
-    df2 = sm.add_constant(df2, has_constant='add')
-    results = []
-    for col in df1:
-      if col != 'Year':
-        # print(df1[state],df2[state])
-        one = df1[col]
-        two = df2[[col,'const']]
-        est = sm.OLS(one, two, missing='drop').fit()
-        # print(est.summary())
-        # sm(est)
-        results.append(est)
-  # 3 arguments (multiple regression)
-  else: 
-    df1,df2,df3 = functions.compare_years(functions.numpy_to_pd(df1), \
-                functions.numpy_to_pd(df2),functions.numpy_to_pd(df3))
-    df2 = sm.add_constant(df2, has_constant='add')
-    # print(df1,df2,df3)
-    results = []
-    for col in df1:
-      if col != 'Year':
-        # print(df1[state],df2[state])
-        one = df1[col]
-        two = df2[[col,'const']].join(df3[col], rsuffix='**2**')
-        print(one,two)
-        est = sm.OLS(one, two, missing='drop').fit()
-        # print(est.summary())
-        # sm.SummarizeResults(est)
-        results.append(est)
-  return results;
 
 # 
 #  TODO:
@@ -65,61 +29,58 @@ def OLS(df1,df2,df3 = pd.DataFrame({'A' : []})):
 #       - export data/graphs for paper
 #       - explain data and turn in paper
 
+# attempt at using pansy formulas...
+# 
+# income = dependent var 
+income_formula     = 'income ~ education + (life_ex + np.log(inf_mortality)) + C(year)'
+# health = dependent var 
+health_formula     = '(life_ex + np.log(inf_mortality)) ~ education + income + C(year)'
+# education = dependent var 
+education_formula  = 'education ~ income + (life_ex + np.log(inf_mortality)) + C(year)'
 
+# same models, using MHDI variables:
+# 
+# income = dependent var 
+MHDI_income_formula = 'MHDI_income ~ MHDI_education + MHDI_life_ex + C(year)'
+# health = dependent var 
+MHDI_health_formula = 'MHDI_life_ex ~ MHDI_education + MHDI_income + C(year)'
+# education = dependent var 
+MHDI_education_formula = 'MHDI_education ~ MHDI_income + MHDI_life_ex + C(year)'
 
+# TODO: would like to learn how to include years as a variable, with education as lagging behind income
+#                      and health, or health lagging behind income
 
 # variables that can be compared:
-#             inf-mortality
-#             life-ex
+#             inf_mortality
+#             life_ex
 #             locale
 #             locale_type
 #             year
 #             MHDI
-#             MHDI-income
-#             MHDI-life-ex
-#             MHDI-education
+#             MHDI_income (PER CAPITA GNI)
+#             MHDI_life_ex (HEALTH)
+#             MHDI_education (MEAN YEARS SCHOOLING 18+ + EXPECTED YEARS SCHOOLING)
 #             education
 #             income
 # 
 # examples
 # linear OLS uses:
-# basic_ols = sm.OLS(regions['education'],regions[['income','life-ex', 'inf-mortality']],missing='drop').fit()
+# basic_ols = sm.OLS(regions['education'],regions[['income','life_ex', 'inf_mortality']],missing='drop').fit()
 # print(basic_ols.summary())
-
+# 
+# formula OLS uses:
+# formula_ols = smf.ols('MHDI_income ~ MHDI_education + MHDI_life_ex + C(locale)', data=MAs).fit()
+# print(formula_ols.summary())
 
 # cities  = pd.read_csv("formatted_data_cities.csv")
 # states = pd.read_csv("formatted_data_states.csv")
-# MAs     = pd.read_csv("formatted_data_metro_areas.csv")
-regions = pd.read_csv("formatted_data_regional_divisions.csv") 
-print(regions['education'])
-# basic_ols = sm.OLS(regions['education'],regions[['income','life-ex', 'inf-mortality']],missing='drop').fit()
+MAs     = pd.read_csv("formatted_data_metro_areas.csv")
+# regions = pd.read_csv("formatted_data_regional_divisions.csv") 
+# print(regions['education'])
+# basic_ols = sm.OLS(regions['education'],regions[['income','life_ex', 'inf_mortality']],missing='drop').fit()
 # print(basic_ols.summary())
 
-# print(OLS(data.state_ensino, data.state_populacao_anual))
-# print(OLS(data.mun_ensino,data.mun_renda, data.mun_saude))
-
-
-
-# renda, ensino = functions.compare_years(data.state_renda, data.state_ensino)
-# ensino = sm.add_constant(ensino)
-# State_rendaXensino = sm.OLS(ensino['Santa Catarina'], renda['Santa Catarina'], missing='drop').fit()
-# print(State_rendaXensino.summary())
-# renda, ensino = functions.compare_years(data.mun_renda, data.state_ensino)
-# ensino = sm.add_constant(ensino)
-# City_rendaXensino = sm.OLS(ensino['Santa Catarina'], renda['Santa Catarina'], missing='drop').fit()
-# print(State_rendaXensino.summary())
-# print(sm.OLS(ensino['1993'], renda['1993'], missing='drop'))
-# print(results.f_test(np.identity(2)))
-# for row in renda.itertuples():
-#   rendaXensino = sm.OLS(ensino.loc[row[0]], renda.loc['Santa Catarina'], missing='drop').fit()
-#   print(rendaXensino.summary())
-## cant compare 2 large tables like this... need to grab cities and states ONE BY ONE and compare them?
-
-
-# #OLS functions
-# functions.OLS(data.mun_renda,data.mun_ensino)
-# functions.OLS(data.mun_ensino,data.mun_saude)
-# functions.OLS(data.mun_saude,data.mun_renda)
-# functions.OLS(data.state_renda,data.state_ensino)
-# functions.OLS(data.state_saude,data.state_ensino)
-# functions.OLS(data.state_renda,data.state_saude)
+formula_ols = smf.ols(MHDI_health_formula, data=MAs).fit()
+print(formula_ols.summary())
+print(MAs.loc[MAs['locale'] == 'RM Recife'])
+print(MAs)

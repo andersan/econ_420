@@ -10,25 +10,28 @@ mun, state = {}, {}
 
 
 # columns to name vars from CSV files
-columns = ["locale","locale_type","codigo","life-ex-1991","life-ex-2000",\
-           "life-ex-2010","inf-mortality-1991","inf-mortality-2000",\
-           "inf-mortality-2010","MHDI-1991","MHDI-2000","MHDI-2010",\
-           "MHDI-income-1991","MHDI-income-2000","MHDI-income-2010",\
-           "MHDI-life-ex-1991","MHDI-life-ex-2000","MHDI-life-ex-2010",\
-           "MHDI-education-1991","MHDI-education-2000","MHDI-education-2010",\
-           "education-1991","education-2000","education-2010","income-1991",\
-           "income-2000","income-2010"]
+columns = ["locale","locale_type","codigo","life_ex_1991","life_ex_2000",\
+           "life_ex_2010","inf_mortality_1991","inf_mortality_2000",\
+           "inf_mortality_2010","MHDI_1991","MHDI_2000","MHDI_2010",\
+           "MHDI_income_1991","MHDI_income_2000","MHDI_income_2010",\
+           "MHDI_life_ex_1991","MHDI_life_ex_2000","MHDI_life_ex_2010",\
+           "MHDI_education_1991","MHDI_education_2000","MHDI_education_2010",\
+           "education_1991","education_2000","education_2010","income_1991",\
+           "income_2000","income_2010"]
 
-columns_small = ["locale","locale_type","codigo","life-ex-2000","life-ex-2010",\
-                 "inf-mortality-2000","inf-mortality-2010","MHDI-2000","MHDI-2010",\
-                 "MHDI-income-2000","MHDI-income-2010","MHDI-life-ex-2000",\
-                 "MHDI-life-ex-2010","MHDI-education-2000","MHDI-education-2010",\
-                 "education-2000","education-2010","income-2000","income-2010"]
+columns_small = ["locale","locale_type","codigo","life_ex_2000","life_ex_2010",\
+                 "inf_mortality_2000","inf_mortality_2010","MHDI_2000","MHDI_2010",\
+                 "MHDI_income_2000","MHDI_income_2010","MHDI_life_ex_2000",\
+                 "MHDI_life_ex_2010","MHDI_education_2000","MHDI_education_2010",\
+                 "education_2000","education_2010","income_2000","income_2010"]
 
 # use data from 1991, 2000, 2010
-# cities  = functions.import_data("data_cities.csv", columns, 5567)
+cities  = functions.import_data("data_cities.csv", columns, 5567)
 states = functions.import_data("data_states.csv", columns, 29)
+
 # use data from 2000, 2010
 MAs     = functions.import_data("data_metro_areas.csv", columns_small, 22)
 regions = functions.import_data("data_regional_divisions.csv", columns_small, 187) 
+
+
 chdir("/home/cree/workspace/econometrics/")
