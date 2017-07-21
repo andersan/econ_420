@@ -26,12 +26,12 @@ columns_small = ["locale","locale_type","codigo","life_ex_2000","life_ex_2010",\
                  "education_2000","education_2010","income_2000","income_2010"]
 
 # use data from 1991, 2000, 2010
-cities  = functions.import_data("data_cities.csv", columns, 5567)
-states = functions.import_data("data_states.csv", columns, 29)
+# cities  = functions.import_data("data_cities.csv", columns, 5567)
+# states = functions.import_data("data_states.csv", columns, 29)
 
 # use data from 2000, 2010
-MAs     = functions.import_data("data_metro_areas.csv", columns_small, 22)
-regions = functions.import_data("data_regional_divisions.csv", columns_small, 187) 
-
+# MAs     = functions.import_data("data_metro_areas.csv", columns_small, 22)
+# regions = functions.import_data("data_regional_divisions.csv", columns_small, 187)
+HDUs = functions.import_data("data_human_development_units.csv", columns_small, 11125)
 
 chdir("/home/cree/workspace/econometrics/")
