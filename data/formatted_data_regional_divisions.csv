@@ -1,0 +1,373 @@
+,codigo,inf_mortality,life_ex,locale,locale_type,year,MHDI,MHDI_income,MHDI_life_ex,MHDI_education,education,income
+0,,28.90,69.18,Brasil,,2000,0.578,0.584,0.736,0.449,9.38,303.18
+1,,22.30,72.70,Centro-Sul (Belo Horizonte . RM Belo Horizonte),,2000,0.660,0.665,0.795,0.544,10.06,502.96
+2,,14.00,77.06,Leste (Belo Horizonte . RM Belo Horizonte),,2000,0.849,0.952,0.868,0.741,10.36,2983.66
+3,,17.10,75.33,Nordeste (Belo Horizonte . RM Belo Horizonte),,2000,0.739,0.772,0.839,0.623,10.21,974.41
+4,,17.60,75.06,Noroeste (Belo Horizonte . RM Belo Horizonte),,2000,0.722,0.747,0.834,0.605,10.16,836.27
+5,,16.90,75.44,Norte (Belo Horizonte . RM Belo Horizonte),,2000,0.749,0.773,0.841,0.646,10.33,983.22
+6,,20.80,73.42,Oeste (Belo Horizonte . RM Belo Horizonte),,2000,0.664,0.677,0.807,0.535,9.91,538.80
+7,,15.70,76.09,Pampulha (Belo Horizonte . RM Belo Horizonte),,2000,0.757,0.807,0.852,0.632,10.09,1214.20
+8,,16.20,75.82,Venda Nova (Belo Horizonte . RM Belo Horizonte),,2000,0.766,0.801,0.847,0.663,10.34,1168.95
+9,,20.90,73.37,Centro (Betim . RM Belo Horizonte),,2000,0.660,0.676,0.806,0.528,9.85,536.03
+10,,19.10,74.28,Citrolândia/Vianópolis (Betim . RM Belo Horizonte),,2000,0.697,0.720,0.821,0.574,10.15,705.36
+11,,36.50,67.10,Imbiruçu (Betim . RM Belo Horizonte),,2000,0.506,0.559,0.702,0.330,9.20,259.64
+12,,29.80,69.52,Jardim Das Alterosas (Betim . RM Belo Horizonte),,2000,0.593,0.606,0.742,0.463,9.90,346.41
+13,,29.10,69.80,Jardim Terezópolis (Betim . RM Belo Horizonte),,2000,0.597,0.619,0.747,0.460,9.73,375.74
+14,,32.70,68.44,Norte (Betim . RM Belo Horizonte),,2000,0.558,0.594,0.724,0.405,9.77,321.74
+15,,23.20,72.30,Santa Cruz (Betim . RM Belo Horizonte),,2000,0.652,0.657,0.788,0.536,9.83,476.21
+16,,32.00,68.69,Brasília / SIA (Brasília . RIDE Distrito Federal e Entorno),,2000,0.566,0.596,0.728,0.417,9.71,326.50
+17,,14.50,77.39,Brazlândia (Brasília . RIDE Distrito Federal e Entorno),,2000,0.894,0.979,0.873,0.837,11.45,3539.65
+18,,28.20,70.37,Candangolândia (Brasília . RIDE Distrito Federal e Entorno),,2000,0.619,0.655,0.756,0.480,9.63,471.19
+19,,20.60,73.89,Ceilândia (Brasília . RIDE Distrito Federal e Entorno),,2000,0.726,0.728,0.815,0.644,10.50,740.25
+20,,24.40,72.05,Cruzeiro / Sudoeste / Octogonal (Brasília . RIDE Distrito Federal e Entorno),,2000,0.661,0.682,0.784,0.541,10.09,557.59
+21,,14.70,77.25,Gama (Brasília . RIDE Distrito Federal e Entorno),,2000,0.879,0.955,0.871,0.816,11.37,3049.79
+22,,20.60,73.92,Guará / SCIA / SIA (Brasília . RIDE Distrito Federal e Entorno),,2000,0.699,0.729,0.815,0.576,10.25,747.53
+23,,17.40,75.66,Lago Norte / Varjão (Brasília . RIDE Distrito Federal e Entorno),,2000,0.789,0.847,0.844,0.687,10.45,1553.88
+24,,15.60,76.70,Lago Sul (Brasília . RIDE Distrito Federal e Entorno),,2000,0.835,0.982,0.862,0.688,10.27,3614.39
+25,,12.90,78.40,Núcleo Bandeirante / Park Way (Brasília . RIDE Distrito Federal e Entorno),,2000,0.909,1.000,0.890,0.844,11.44,5936.16
+26,,16.30,76.30,Paranoá / Jardim Botânico (Brasília . RIDE Distrito Federal e Entorno),,2000,0.802,0.872,0.855,0.692,10.39,1820.46
+27,,29.30,69.94,Planaltina (Brasília . RIDE Distrito Federal e Entorno),,2000,0.584,0.653,0.749,0.407,8.64,464.08
+28,,27.90,70.51,Recanto das Emas (Brasília . RIDE Distrito Federal e Entorno),,2000,0.599,0.662,0.759,0.428,9.31,493.11
+29,,31.40,69.10,Riacho Fundo I / Riacho Fundo II (Brasília . RIDE Distrito Federal e Entorno),,2000,0.564,0.600,0.735,0.406,8.94,333.88
+30,,24.20,72.16,Samambaia (Brasília . RIDE Distrito Federal e Entorno),,2000,0.665,0.700,0.786,0.535,9.88,622.88
+31,,29.50,69.86,Santa Maria (Brasília . RIDE Distrito Federal e Entorno),,2000,0.605,0.637,0.748,0.465,9.54,422.05
+32,,30.30,69.52,São Sebastião / Jardim Botânico (Brasília . RIDE Distrito Federal e Entorno),,2000,0.600,0.636,0.742,0.457,9.60,418.99
+33,,26.60,71.05,Sobradinho I / Sobradinho II / Itapoã / Fercal (Brasília . RIDE Distrito Federal e Entorno),,2000,0.616,0.708,0.768,0.429,9.15,656.60
+34,,20.30,74.09,Taguatinga / Vicente Pires / Águas Claras (Brasília . RIDE Distrito Federal e Entorno),,2000,0.718,0.779,0.818,0.582,10.00,1016.69
+35,,17.70,75.47,RPA 01 ( Sul ) (Camaragibe . RM Recife),,2000,0.775,0.818,0.841,0.676,10.73,1300.66
+36,,40.40,68.64,RPA 02 ( Sudoeste ) (Camaragibe . RM Recife),,2000,0.596,0.609,0.727,0.479,9.27,354.80
+37,,49.20,66.08,RPA 03 ( Sudeste ) (Camaragibe . RM Recife),,2000,0.512,0.524,0.685,0.375,8.94,208.33
+38,,39.40,68.93,RPA 04 ( Centro Leste ) (Camaragibe . RM Recife),,2000,0.618,0.613,0.732,0.526,9.68,362.76
+39,,46.20,66.93,RPA 05 ( Norte ) (Camaragibe . RM Recife),,2000,0.500,0.548,0.699,0.327,7.54,242.84
+40,,36.00,70.02,Água Branca (Contagem . RM Belo Horizonte),,2000,0.553,0.705,0.750,0.320,7.82,643.34
+41,,23.90,71.99,Cidade Industrial (Contagem . RM Belo Horizonte),,2000,0.626,0.654,0.783,0.480,9.48,466.93
+42,,21.60,73.03,Eldorado Inconfidentes (Contagem . RM Belo Horizonte),,2000,0.661,0.673,0.801,0.536,10.03,527.93
+43,,17.70,74.96,Nacional (Contagem . RM Belo Horizonte),,2000,0.742,0.746,0.833,0.657,10.59,830.76
+44,,27.20,70.56,Petrolândia (Contagem . RM Belo Horizonte),,2000,0.611,0.632,0.759,0.475,9.31,408.98
+45,,25.90,71.09,Ressaca (Contagem . RM Belo Horizonte),,2000,0.634,0.641,0.768,0.517,10.09,432.14
+46,,22.50,72.62,Retiro Nova Contagem (Contagem . RM Belo Horizonte),,2000,0.644,0.663,0.794,0.507,9.88,495.13
+47,,35.10,67.60,Riacho (Contagem . RM Belo Horizonte),,2000,0.524,0.566,0.710,0.359,8.45,271.58
+48,,18.90,74.36,Sede (Contagem . RM Belo Horizonte),,2000,0.730,0.724,0.823,0.653,10.51,725.12
+49,,19.40,74.13,Área Rural (Cuiabá . RM Vale do Rio Cuiabá),,2000,0.695,0.717,0.819,0.571,9.97,692.08
+50,,32.70,67.49,Região Leste (Cuiabá . RM Vale do Rio Cuiabá),,2000,0.500,0.635,0.708,0.278,7.42,415.08
+51,,19.60,73.59,Região Norte (Cuiabá . RM Vale do Rio Cuiabá),,2000,0.733,0.787,0.810,0.618,10.49,1068.53
+52,,30.20,68.48,Região Oeste (Cuiabá . RM Vale do Rio Cuiabá),,2000,0.641,0.673,0.725,0.540,10.07,527.14
+53,,16.20,75.56,Região Sul (Cuiabá . RM Vale do Rio Cuiabá),,2000,0.772,0.833,0.843,0.655,10.48,1424.86
+54,,31.00,68.18,Administração Regional da Boa Vista ( R.4.BV ) (Curitiba . RM Curitiba),,2000,0.625,0.665,0.720,0.510,10.01,502.11
+55,,17.42,74.91,Administração Regional da CIC (Curitiba . RM Curitiba),,2000,0.767,0.792,0.832,0.686,11.33,1102.24
+56,,24.31,71.41,Administração Regional de Santa Felicidade ( R.5.SF) (Curitiba . RM Curitiba),,2000,0.655,0.671,0.774,0.540,10.08,521.39
+57,,16.81,75.25,Administração Regional do Bairro Novo ( R.10.BN ) (Curitiba . RM Curitiba),,2000,0.776,0.819,0.838,0.680,11.19,1306.53
+58,,24.87,71.04,Administração Regional Do Boqueirão ( R.2.BQ ) (Curitiba . RM Curitiba),,2000,0.640,0.665,0.767,0.515,9.92,502.63
+59,,18.52,74.23,Administração Regional do Cajuru ( R.3.CJ ) (Curitiba . RM Curitiba),,2000,0.734,0.747,0.821,0.645,11.11,837.50
+60,,20.32,73.43,Administração Regional do Portão ( R.7.PR ) (Curitiba . RM Curitiba),,2000,0.715,0.753,0.807,0.601,10.65,869.78
+61,,17.71,74.84,Administração Regional Matriz ( R.1.MZ ) (Curitiba . RM Curitiba),,2000,0.802,0.852,0.831,0.728,11.33,1608.01
+62,,14.00,76.96,Administração Regional Pinheirinho ( R.8.PN ) (Curitiba . RM Curitiba),,2000,0.887,0.953,0.866,0.845,12.13,3013.25
+63,,22.83,72.13,Secretaria Executiva Regional do Centro de Fortaleza ( Sercefor ) (Fortaleza . RM Fortaleza),,2000,0.661,0.696,0.786,0.529,10.08,606.34
+64,,21.30,74.07,Secretaria Executiva Regional III ( SER III ) (Fortaleza . RM Fortaleza),,2000,0.781,0.804,0.818,0.724,10.78,1188.58
+65,,32.20,69.81,Secretaria Executiva Regional II ( SER II ) (Fortaleza . RM Fortaleza),,2000,0.638,0.653,0.747,0.533,9.41,466.25
+66,,17.80,75.64,Secretaria Executiva Regional I ( SER I ) (Fortaleza . RM Fortaleza),,2000,0.777,0.856,0.844,0.649,9.73,1650.39
+67,,36.20,68.46,Secretaria Executiva Regional IV ( SER IV ) (Fortaleza . RM Fortaleza),,2000,0.620,0.632,0.724,0.520,9.38,408.84
+68,,25.20,72.41,Secretaria Executiva Regional VI ( SER VI ) (Fortaleza . RM Fortaleza),,2000,0.709,0.729,0.790,0.619,9.97,745.43
+69,,32.80,69.61,Secretaria Executiva Regional V ( SER V ) (Fortaleza . RM Fortaleza),,2000,0.606,0.639,0.744,0.467,8.71,426.32
+70,,37.80,67.95,Durval de Barros (Ibirité . RM Belo Horizonte),,2000,0.581,0.584,0.716,0.469,8.98,303.78
+71,,34.50,67.78,Parque Elizabeth (Ibirité . RM Belo Horizonte),,2000,0.544,0.578,0.713,0.390,8.66,292.39
+72,,33.20,68.26,Sede (Ibirité . RM Belo Horizonte),,2000,0.562,0.583,0.721,0.423,9.67,301.57
+73,,30.00,69.46,Regional 01 ( Centro ) (Jaboatão dos Guararapes . RM Recife),,2000,0.574,0.599,0.741,0.426,8.76,331.69
+74,,44.10,67.54,Regional 02 ( Cavaleiro ) (Jaboatão dos Guararapes . RM Recife),,2000,0.563,0.578,0.709,0.435,8.45,292.20
+75,,43.70,67.65,Regional 03 ( Curado ) (Jaboatão dos Guararapes . RM Recife),,2000,0.560,0.580,0.711,0.425,8.23,295.61
+76,,39.10,69.04,Regional 04 ( Muribeca ) (Jaboatão dos Guararapes . RM Recife),,2000,0.625,0.617,0.734,0.540,9.38,371.50
+77,,42.80,67.90,Regional 05 ( Prazeres ) (Jaboatão dos Guararapes . RM Recife),,2000,0.579,0.581,0.715,0.467,7.92,297.77
+78,,40.60,68.57,Regional 06 ( Praias ) (Jaboatão dos Guararapes . RM Recife),,2000,0.562,0.592,0.726,0.412,7.84,318.43
+79,,30.90,71.78,Regional 07 ( Guararapes ) (Jaboatão dos Guararapes . RM Recife),,2000,0.703,0.785,0.780,0.568,8.75,1055.10
+80,,46.00,66.97,RA-1 (Maceió . RM Maceió),,2000,0.529,0.552,0.700,0.383,7.71,248.30
+81,,28.30,71.59,RA-2 (Maceió . RM Maceió),,2000,0.771,0.856,0.777,0.690,10.15,1650.87
+82,,47.20,65.32,RA-3 (Maceió . RM Maceió),,2000,0.557,0.627,0.672,0.410,7.56,395.91
+83,,32.30,70.10,RA-4 (Maceió . RM Maceió),,2000,0.714,0.809,0.752,0.599,9.34,1232.14
+84,,51.80,64.07,RA-5 (Maceió . RM Maceió),,2000,0.497,0.583,0.651,0.323,7.13,301.96
+85,,46.90,65.41,RA-6 (Maceió . RM Maceió),,2000,0.550,0.628,0.674,0.392,7.49,397.47
+86,,53.20,63.69,RA-7 (Maceió . RM Maceió),,2000,0.500,0.562,0.645,0.344,6.93,263.51
+87,,49.40,64.71,RA-8 (Maceió . RM Maceió),,2000,0.531,0.589,0.662,0.383,7.63,313.25
+88,,39.30,67.70,ZONA CENTRO-OESTE (Manaus . RM Manaus),,2000,0.602,0.733,0.712,0.419,7.66,767.41
+89,,31.30,69.79,ZONA CENTRO-SUL (Manaus . RM Manaus),,2000,0.641,0.691,0.747,0.511,9.04,589.19
+90,,18.00,75.45,ZONA LESTE ( Jorge Teixeira. Tancredo Neves. São José Operário. Gilberto Mestrinho. Zumbi dos Palmares. Armando Mendes) (Manaus . RM Manaus),,2000,0.759,0.825,0.841,0.630,9.53,1355.19
+91,,40.70,66.63,ZONA NORTE (Manaus . RM Manaus),,2000,0.494,0.562,0.694,0.310,7.38,264.41
+92,,39.10,67.14,ZONA OESTE (Ponta Negra. Tarumã. Tarumã-Açu) (Manaus . RM Manaus),,2000,0.555,0.608,0.702,0.401,7.92,351.01
+93,,23.70,72.80,ZONA OESTE (Santo Agostinho. Compensa. São Jorge. Vila da Prata. Santo Antônio. São Raimundo. Glória) (Manaus . RM Manaus),,2000,0.583,0.753,0.797,0.330,7.06,867.62
+94,,34.40,68.68,ZONA SUL (Presidente Vargas. Nossa Senhora Aparecida. Centro. Praça 14 de Janeiro. Cachoeirinha) (Manaus . RM Manaus),,2000,0.603,0.657,0.728,0.459,8.57,476.61
+95,,24.70,72.39,ZONA SUL / ZONA LESTE ( Educandos. Santa Luzia. Colônia Oliveira Machado. Morro da Liberdade. São Lázaro. Betânia. Crespo. Vila Buriti. Distrito Industrial I / Mauazinho. Colônia Antônio Aleixo. Distrito Industrial II. Puraquequara ) (Manaus . RM Manaus),,2000,0.687,0.751,0.790,0.546,8.97,857.75
+96,,38.90,67.19,ZONA SUL / ZONA LESTE( Raiz. Japiim. São Francisco. Petrópolis / Coroado) (Manaus . RM Manaus),,2000,0.555,0.608,0.703,0.399,7.98,351.06
+97,,32.90,69.21,R.A. LESTE (Natal . RM Natal),,2000,0.620,0.675,0.737,0.480,8.88,534.14
+98,,30.40,72.45,R.A. NORTE (Natal . RM Natal),,2000,0.719,0.783,0.791,0.599,10.23,1042.67
+99,,45.62,67.65,R.A. OESTE (Natal . RM Natal),,2000,0.579,0.587,0.711,0.465,9.24,308.11
+100,,44.30,68.15,R.A. SUL (Natal . RM Natal),,2000,0.574,0.598,0.719,0.441,8.95,331.48
+101,,23.80,74.86,Expansão Sul (Nova Lima . RM Belo Horizonte),,2000,0.807,0.832,0.831,0.760,11.09,1413.42
+102,,15.20,76.41,Sede (Nova Lima . RM Belo Horizonte),,2000,0.736,0.856,0.857,0.543,9.63,1646.46
+103,,20.40,73.63,Centro (Porto Alegre . RM Porto Alegre),,2000,0.674,0.693,0.811,0.544,9.53,596.65
+104,,9.90,77.88,Centro Sul (Porto Alegre . RM Porto Alegre),,2000,0.893,0.950,0.881,0.850,12.29,2945.58
+105,,15.50,73.98,Cristal (Porto Alegre . RM Porto Alegre),,2000,0.742,0.784,0.816,0.638,11.06,1049.03
+106,,14.00,74.95,Cruzeiro (Porto Alegre . RM Porto Alegre),,2000,0.762,0.827,0.833,0.642,10.68,1377.45
+107,,16.30,73.44,Eixo Baltazar (Porto Alegre . RM Porto Alegre),,2000,0.671,0.764,0.807,0.490,9.09,928.95
+108,,16.70,73.23,Extremo Sul (Porto Alegre . RM Porto Alegre),,2000,0.716,0.754,0.804,0.605,10.69,871.29
+109,,18.30,72.32,Glória (Porto Alegre . RM Porto Alegre),,2000,0.629,0.702,0.789,0.449,9.48,630.36
+110,,18.20,72.36,Humaitá / Navegantes (Porto Alegre . RM Porto Alegre),,2000,0.662,0.728,0.789,0.504,9.59,740.77
+111,,16.80,73.17,Ilhas (Porto Alegre . RM Porto Alegre),,2000,0.693,0.754,0.803,0.550,9.90,870.66
+112,,23.20,69.74,Leste (Porto Alegre . RM Porto Alegre),,2000,0.528,0.623,0.746,0.316,8.65,387.03
+113,,15.30,74.07,Lomba do Pinheiro (Porto Alegre . RM Porto Alegre),,2000,0.713,0.796,0.818,0.557,10.01,1135.03
+114,,22.20,70.25,Nordeste (Porto Alegre . RM Porto Alegre),,2000,0.586,0.648,0.754,0.412,9.14,452.27
+115,,26.40,68.28,Noroeste (Porto Alegre . RM Porto Alegre),,2000,0.511,0.598,0.721,0.309,8.11,330.08
+116,,11.60,76.59,Norte (Porto Alegre . RM Porto Alegre),,2000,0.840,0.880,0.860,0.783,11.85,1907.87
+117,,18.40,72.22,Partenon (Porto Alegre . RM Porto Alegre),,2000,0.648,0.691,0.787,0.501,9.89,590.70
+118,,16.00,73.62,Restinga (Porto Alegre . RM Porto Alegre),,2000,0.698,0.770,0.810,0.545,10.24,962.68
+119,,22.10,70.29,Sul (Porto Alegre . RM Porto Alegre),,2000,0.595,0.652,0.755,0.427,9.34,461.15
+120,,13.00,75.62,RPA 1 ( Centro ) (Recife . RM Recife),,2000,0.783,0.860,0.844,0.662,10.95,1692.40
+121,,35.60,70.17,RPA 2 ( Norte ) (Recife . RM Recife),,2000,0.640,0.720,0.753,0.483,8.33,705.01
+122,,36.30,69.93,RPA 3 ( Noroeste ) (Recife . RM Recife),,2000,0.623,0.669,0.749,0.483,8.74,513.85
+123,,32.80,71.08,RPA 4 ( Oeste ) (Recife . RM Recife),,2000,0.677,0.757,0.768,0.533,9.06,890.48
+124,,33.50,70.86,RPA 5 ( Sudoeste ) (Recife . RM Recife),,2000,0.680,0.730,0.764,0.563,9.33,749.58
+125,,36.70,69.79,RPA 6 ( Sul ) (Recife . RM Recife),,2000,0.635,0.652,0.747,0.525,9.12,463.08
+126,,30.20,72.03,Justinópolis (Ribeirão das Neves . RM Belo Horizonte),,2000,0.709,0.791,0.784,0.575,9.33,1101.75
+127,,32.50,68.50,Sede (Ribeirão das Neves . RM Belo Horizonte),,2000,0.575,0.594,0.725,0.442,9.40,322.46
+128,,31.80,68.77,Veneza ( 040 ) (Ribeirão das Neves . RM Belo Horizonte),,2000,0.560,0.597,0.730,0.403,9.43,327.82
+129,,34.10,67.95,Barra / Jacarepaguá (Rio de Janeiro . RM do Rio de Janeiro),,2000,0.541,0.580,0.716,0.381,8.81,295.11
+130,,17.90,74.52,Centro (Rio de Janeiro . RM do Rio de Janeiro),,2000,0.760,0.851,0.825,0.626,9.53,1596.64
+131,,20.70,73.00,Grande Tijuca (Rio de Janeiro . RM do Rio de Janeiro),,2000,0.700,0.760,0.800,0.564,9.03,905.32
+132,,16.20,75.55,Ilha do Governador (Rio de Janeiro . RM do Rio de Janeiro),,2000,0.828,0.900,0.843,0.748,10.34,2159.97
+133,,19.40,73.71,Maré (Rio de Janeiro . RM do Rio de Janeiro),,2000,0.755,0.807,0.812,0.656,9.92,1215.44
+134,,28.10,69.50,Meier (Rio de Janeiro . RM do Rio de Janeiro),,2000,0.562,0.623,0.742,0.385,7.55,385.75
+135,,19.10,73.88,Pavuna (Rio de Janeiro . RM do Rio de Janeiro),,2000,0.769,0.809,0.815,0.690,10.16,1225.66
+136,,25.80,70.51,Vigário (Rio de Janeiro . RM do Rio de Janeiro),,2000,0.641,0.666,0.759,0.521,8.81,504.81
+137,,21.50,72.60,Zona Norte (Rio de Janeiro . RM do Rio de Janeiro),,2000,0.696,0.733,0.793,0.580,9.43,766.84
+138,,21.90,72.40,Zona Oeste (Rio de Janeiro . RM do Rio de Janeiro),,2000,0.701,0.727,0.790,0.599,9.64,738.43
+139,,24.20,71.26,Zona Sul (Rio de Janeiro . RM do Rio de Janeiro),,2000,0.661,0.686,0.771,0.545,9.31,569.81
+140,,14.60,76.51,Carvalho de Brito (Sabará . RM Belo Horizonte),,2000,0.843,0.963,0.859,0.724,9.95,3201.69
+141,,27.80,70.32,Sede (Sabará . RM Belo Horizonte),,2000,0.608,0.632,0.755,0.472,9.22,407.93
+142,,24.40,71.77,Av. das Indústrias (Santa Luzia . RM Belo Horizonte),,2000,0.644,0.652,0.780,0.525,9.64,461.35
+143,,23.00,72.38,São Benedito (Santa Luzia . RM Belo Horizonte),,2000,0.648,0.657,0.790,0.524,10.16,478.11
+144,,29.30,69.70,Sede (Santa Luzia . RM Belo Horizonte),,2000,0.588,0.610,0.745,0.447,9.45,355.23
+145,,26.30,70.92,Aricanduva / Vila Formosa (São Paulo . RM São Paulo),,2000,0.615,0.641,0.765,0.475,9.58,431.97
+146,,15.40,74.49,Butantã (São Paulo . RM São Paulo),,2000,0.762,0.804,0.825,0.668,11.10,1193.39
+147,,13.80,75.53,Campo Limpo (São Paulo . RM São Paulo),,2000,0.789,0.876,0.842,0.665,10.32,1866.56
+148,,15.60,74.37,Capela do Socorro (São Paulo . RM São Paulo),,2000,0.699,0.760,0.823,0.546,9.80,906.33
+149,,21.60,70.97,Casa Verde (São Paulo . RM São Paulo),,2000,0.656,0.707,0.766,0.521,9.70,653.05
+150,,15.20,74.59,Cidade Ademar (São Paulo . RM São Paulo),,2000,0.732,0.769,0.827,0.616,10.18,957.39
+151,,21.10,71.23,Cidade Tiradentes (São Paulo . RM São Paulo),,2000,0.662,0.714,0.771,0.526,9.82,679.31
+152,,25.50,69.06,Ermelino Matarazzo (São Paulo . RM São Paulo),,2000,0.634,0.645,0.734,0.538,9.82,442.20
+153,,19.60,72.02,Freguesia do Ó / Brasilândia (São Paulo . RM São Paulo),,2000,0.707,0.730,0.784,0.617,10.49,752.05
+154,,20.10,71.75,Guaianases (São Paulo . RM São Paulo),,2000,0.677,0.724,0.779,0.551,9.77,722.29
+155,,24.60,69.52,Ipiranga (São Paulo . RM São Paulo),,2000,0.621,0.650,0.742,0.496,9.99,457.22
+156,,14.60,75.02,Itaim Paulista (São Paulo . RM São Paulo),,2000,0.759,0.814,0.834,0.645,10.54,1266.19
+157,,24.10,69.75,Itaquera (São Paulo . RM São Paulo),,2000,0.639,0.656,0.746,0.534,10.37,474.77
+158,,20.60,71.49,Jabaquara (São Paulo . RM São Paulo),,2000,0.691,0.714,0.775,0.596,10.36,680.18
+159,,14.50,75.08,Jaçanã / Tremembé (São Paulo . RM São Paulo),,2000,0.756,0.819,0.835,0.633,10.37,1308.99
+160,,15.60,74.38,Lapa (São Paulo . RM São Paulo),,2000,0.716,0.766,0.823,0.583,9.84,940.36
+161,,12.30,76.59,MBoi Mirim (São Paulo . RM São Paulo),,2000,0.849,0.934,0.860,0.763,11.09,2670.35
+162,,22.10,70.72,Mooca (São Paulo . RM São Paulo),,2000,0.638,0.683,0.762,0.499,9.48,561.43
+163,,13.90,75.46,Parelheiros (São Paulo . RM São Paulo),,2000,0.811,0.871,0.841,0.727,11.27,1804.57
+164,,25.00,69.29,Penha (São Paulo . RM São Paulo),,2000,0.593,0.649,0.738,0.436,9.47,453.94
+165,,15.60,74.39,Perus (São Paulo . RM São Paulo),,2000,0.745,0.767,0.823,0.656,10.83,943.56
+166,,23.60,69.99,Pinheiros (São Paulo . RM São Paulo),,2000,0.637,0.670,0.750,0.515,9.67,516.30
+167,,10.20,78.14,Pirituba / Jaraguá (São Paulo . RM São Paulo),,2000,0.910,1.000,0.886,0.851,11.58,4806.39
+168,,15.60,74.38,Santana / Tucuruvi (São Paulo . RM São Paulo),,2000,0.718,0.751,0.823,0.598,10.29,855.74
+169,,14.30,75.21,Santo Amaro (São Paulo . RM São Paulo),,2000,0.811,0.866,0.837,0.736,11.33,1749.32
+170,,11.80,76.96,São Mateus (São Paulo . RM São Paulo),,2000,0.867,0.948,0.866,0.794,11.31,2922.24
+171,,22.60,70.48,São Miguel Paulista (São Paulo . RM São Paulo),,2000,0.658,0.681,0.758,0.553,10.26,552.87
+172,,23.10,70.23,Sé (São Paulo . RM São Paulo),,2000,0.650,0.678,0.754,0.537,10.04,543.62
+173,,12.80,76.23,Vila Mariana (São Paulo . RM São Paulo),,2000,0.831,0.931,0.854,0.721,10.49,2628.91
+174,,10.70,77.74,Vila Maria / Vila Guilherme (São Paulo . RM São Paulo),,2000,0.897,0.984,0.879,0.834,11.59,3653.98
+175,,15.60,74.38,Vila Prudente (São Paulo . RM São Paulo),,2000,0.733,0.768,0.823,0.624,10.53,950.69
+176,,15.60,74.38,Sede (Vespasiano . RM Belo Horizonte),,2000,0.723,0.745,0.823,0.617,10.45,826.22
+177,,20.20,73.70,Vila Esportiva (Vespasiano . RM Belo Horizonte),,2000,0.694,0.699,0.812,0.589,9.95,621.49
+178,,34.80,67.71,Bento Ferreira / Jucutuquara (Vitória . RM Grande Vitória),,2000,0.551,0.578,0.712,0.406,8.90,292.25
+179,,22.10,72.30,Centro (Vitória . RM Grande Vitória),,2000,0.729,0.781,0.788,0.630,9.99,1032.95
+180,,18.50,74.20,Continente (Vitória . RM Grande Vitória),,2000,0.788,0.825,0.820,0.722,10.76,1356.93
+181,,16.40,75.40,Maruípe (Vitória . RM Grande Vitória),,2000,0.849,0.873,0.840,0.834,11.47,1824.14
+182,,23.30,71.69,Praia do Canto (Vitória . RM Grande Vitória),,2000,0.694,0.697,0.778,0.616,10.17,613.07
+183,,14.40,76.61,Santo Antônio (Vitória . RM Grande Vitória),,2000,0.893,0.966,0.860,0.856,11.56,3255.88
+184,,23.70,71.50,São Pedro (Vitória . RM Grande Vitória),,2000,0.674,0.676,0.775,0.585,10.07,536.17
+185,,16.70,73.94,Barreiro (Belo Horizonte . RM Belo Horizonte),,2010,0.727,0.739,0.816,0.637,9.54,793.87
+186,,13.60,76.13,Centro-Sul (Belo Horizonte . RM Belo Horizonte),,2010,0.744,0.720,0.852,0.672,9.87,705.07
+187,,7.60,81.00,Leste (Belo Horizonte . RM Belo Horizonte),,2010,0.914,0.995,0.933,0.823,10.55,3915.67
+188,,9.20,79.57,Nordeste (Belo Horizonte . RM Belo Horizonte),,2010,0.827,0.830,0.910,0.748,10.31,1400.02
+189,,10.20,78.72,Noroeste (Belo Horizonte . RM Belo Horizonte),,2010,0.801,0.800,0.895,0.719,10.14,1162.19
+190,,9.40,79.42,Norte (Belo Horizonte . RM Belo Horizonte),,2010,0.818,0.811,0.907,0.744,10.30,1247.84
+191,,12.80,76.71,Oeste (Belo Horizonte . RM Belo Horizonte),,2010,0.754,0.733,0.862,0.679,10.08,764.87
+192,,9.10,79.60,Pampulha (Belo Horizonte . RM Belo Horizonte),,2010,0.839,0.857,0.910,0.757,10.15,1659.84
+193,,9.10,79.66,Venda Nova (Belo Horizonte . RM Belo Horizonte),,2010,0.853,0.859,0.911,0.793,10.69,1672.21
+194,,13.00,76.61,Centro (Betim . RM Belo Horizonte),,2010,0.755,0.732,0.860,0.683,10.30,759.31
+195,,10.40,78.55,Citrolândia/Vianópolis (Betim . RM Belo Horizonte),,2010,0.795,0.786,0.893,0.715,10.03,1066.17
+196,,20.00,72.23,Imbiruçu (Betim . RM Belo Horizonte),,2010,0.670,0.652,0.787,0.585,8.77,462.92
+197,,16.70,74.16,Jardim Das Alterosas (Betim . RM Belo Horizonte),,2010,0.736,0.684,0.819,0.711,10.45,563.62
+198,,15.00,75.22,Jardim Terezópolis (Betim . RM Belo Horizonte),,2010,0.740,0.700,0.837,0.693,10.00,625.27
+199,,17.60,73.56,Norte (Betim . RM Belo Horizonte),,2010,0.707,0.682,0.809,0.641,9.86,558.90
+200,,13.10,76.51,Santa Cruz (Betim . RM Belo Horizonte),,2010,0.771,0.730,0.859,0.732,10.45,752.70
+201,,18.70,72.95,Brasília / SIA (Brasília . RIDE Distrito Federal e Entorno),,2010,0.707,0.662,0.799,0.668,9.30,491.07
+202,,8.50,81.40,Brazlândia (Brasília . RIDE Distrito Federal e Entorno),,2010,0.952,1.000,0.940,0.918,11.55,4963.98
+203,,17.50,75.20,Candangolândia (Brasília . RIDE Distrito Federal e Entorno),,2010,0.741,0.727,0.837,0.669,9.67,736.89
+204,,12.60,78.33,Ceilândia (Brasília . RIDE Distrito Federal e Entorno),,2010,0.825,0.812,0.889,0.777,9.66,1255.53
+205,,17.60,75.14,Cruzeiro / Sudoeste / Octogonal (Brasília . RIDE Distrito Federal e Entorno),,2010,0.747,0.727,0.836,0.687,9.90,735.99
+206,,8.60,81.32,Gama (Brasília . RIDE Distrito Federal e Entorno),,2010,0.942,1.000,0.939,0.889,11.75,4707.90
+207,,12.90,78.11,Guará / SCIA / SIA (Brasília . RIDE Distrito Federal e Entorno),,2010,0.805,0.789,0.885,0.748,10.34,1081.67
+208,,10.30,79.96,Lago Norte / Varjão (Brasília . RIDE Distrito Federal e Entorno),,2010,0.847,0.873,0.916,0.760,10.25,1826.23
+209,,10.30,80.00,Lago Sul (Brasília . RIDE Distrito Federal e Entorno),,2010,0.904,1.000,0.917,0.806,9.94,4425.55
+210,,7.70,82.16,Núcleo Bandeirante / Park Way (Brasília . RIDE Distrito Federal e Entorno),,2010,0.955,1.000,0.953,0.913,11.48,7422.45
+211,,10.00,80.25,Paranoá / Jardim Botânico (Brasília . RIDE Distrito Federal e Entorno),,2010,0.888,0.955,0.921,0.797,10.46,3040.92
+212,,15.30,76.50,Planaltina (Brasília . RIDE Distrito Federal e Entorno),,2010,0.757,0.800,0.858,0.631,9.40,1158.98
+213,,19.00,74.34,Recanto das Emas (Brasília . RIDE Distrito Federal e Entorno),,2010,0.723,0.717,0.822,0.642,9.55,691.97
+214,,19.70,73.95,Riacho Fundo I / Riacho Fundo II (Brasília . RIDE Distrito Federal e Entorno),,2010,0.724,0.698,0.816,0.665,9.78,616.47
+215,,14.40,77.08,Samambaia (Brasília . RIDE Distrito Federal e Entorno),,2010,0.797,0.780,0.868,0.747,10.36,1024.69
+216,,17.10,75.42,Santa Maria (Brasília . RIDE Distrito Federal e Entorno),,2010,0.755,0.733,0.840,0.698,10.04,766.96
+217,,18.80,74.45,São Sebastião / Jardim Botânico (Brasília . RIDE Distrito Federal e Entorno),,2010,0.747,0.719,0.824,0.704,9.88,701.07
+218,,16.80,75.60,Sobradinho I / Sobradinho II / Itapoã / Fercal (Brasília . RIDE Distrito Federal e Entorno),,2010,0.761,0.812,0.843,0.645,9.99,1253.76
+219,,14.40,77.07,Taguatinga / Vicente Pires / Águas Claras (Brasília . RIDE Distrito Federal e Entorno),,2010,0.801,0.821,0.868,0.720,10.20,1327.20
+220,,10.60,79.79,RPA 01 ( Sul ) (Camaragibe . RM Recife),,2010,0.873,0.892,0.913,0.818,10.79,2057.02
+221,,22.79,71.88,RPA 02 ( Sudoeste ) (Camaragibe . RM Recife),,2010,0.700,0.642,0.781,0.684,10.83,435.71
+222,,26.57,70.14,RPA 03 ( Sudeste ) (Camaragibe . RM Recife),,2010,0.636,0.598,0.752,0.573,9.45,330.89
+223,,19.90,73.21,RPA 04 ( Centro Leste ) (Camaragibe . RM Recife),,2010,0.706,0.661,0.804,0.663,10.81,489.71
+224,,25.98,70.41,RPA 05 ( Norte ) (Camaragibe . RM Recife),,2010,0.634,0.600,0.757,0.561,9.02,334.93
+225,,16.56,74.75,Água Branca (Contagem . RM Belo Horizonte),,2010,0.705,0.770,0.829,0.549,9.75,962.97
+226,,14.40,75.64,Cidade Industrial (Contagem . RM Belo Horizonte),,2010,0.744,0.711,0.844,0.685,10.54,668.86
+227,,13.80,76.00,Eldorado Inconfidentes (Contagem . RM Belo Horizonte),,2010,0.734,0.719,0.850,0.648,9.01,699.79
+228,,10.00,78.87,Nacional (Contagem . RM Belo Horizonte),,2010,0.823,0.800,0.898,0.777,10.77,1165.18
+229,,13.90,75.98,Petrolândia (Contagem . RM Belo Horizonte),,2010,0.742,0.717,0.850,0.670,10.11,695.10
+230,,13.40,76.33,Ressaca (Contagem . RM Belo Horizonte),,2010,0.759,0.725,0.856,0.705,9.29,728.02
+231,,14.20,75.76,Retiro Nova Contagem (Contagem . RM Belo Horizonte),,2010,0.736,0.714,0.846,0.661,9.81,680.15
+232,,18.20,73.26,Riacho (Contagem . RM Belo Horizonte),,2010,0.695,0.675,0.804,0.618,9.63,535.32
+233,,10.40,78.60,Sede (Contagem . RM Belo Horizonte),,2010,0.806,0.788,0.893,0.745,10.21,1079.83
+234,,10.50,78.49,Área Rural (Cuiabá . RM Vale do Rio Cuiabá),,2010,0.792,0.778,0.892,0.717,10.27,1013.03
+235,,20.80,71.79,Região Leste (Cuiabá . RM Vale do Rio Cuiabá),,2010,0.635,0.693,0.780,0.474,9.15,598.40
+236,,10.80,78.26,Região Norte (Cuiabá . RM Vale do Rio Cuiabá),,2010,0.826,0.840,0.888,0.755,10.63,1494.74
+237,,18.10,73.30,Região Oeste (Cuiabá . RM Vale do Rio Cuiabá),,2010,0.753,0.735,0.805,0.723,10.47,777.37
+238,,9.30,79.44,Região Sul (Cuiabá . RM Vale do Rio Cuiabá),,2010,0.852,0.866,0.907,0.788,10.86,1746.76
+239,,19.40,72.58,Administração Regional da Boa Vista ( R.4.BV ) (Curitiba . RM Curitiba),,2010,0.727,0.719,0.793,0.673,9.67,703.57
+240,,8.56,78.58,Administração Regional da CIC (Curitiba . RM Curitiba),,2010,0.839,0.843,0.893,0.785,11.26,1518.71
+241,,12.56,75.27,Administração Regional de Santa Felicidade ( R.5.SF) (Curitiba . RM Curitiba),,2010,0.755,0.743,0.838,0.692,11.05,812.82
+242,,8.09,79.05,Administração Regional do Bairro Novo ( R.10.BN ) (Curitiba . RM Curitiba),,2010,0.855,0.889,0.901,0.780,11.43,2025.10
+243,,13.66,74.38,Administração Regional Do Boqueirão ( R.2.BQ ) (Curitiba . RM Curitiba),,2010,0.750,0.735,0.823,0.698,10.35,773.29
+244,,9.64,77.63,Administração Regional do Cajuru ( R.3.CJ ) (Curitiba . RM Curitiba),,2010,0.811,0.800,0.877,0.760,11.69,1163.61
+245,,10.65,76.94,Administração Regional do Portão ( R.7.PR ) (Curitiba . RM Curitiba),,2010,0.806,0.813,0.866,0.743,11.76,1259.73
+246,,8.68,78.59,Administração Regional Matriz ( R.1.MZ ) (Curitiba . RM Curitiba),,2010,0.866,0.895,0.893,0.812,11.54,2095.15
+247,,6.67,80.51,Administração Regional Pinheirinho ( R.8.PN ) (Curitiba . RM Curitiba),,2010,0.928,0.967,0.925,0.894,12.29,3292.69
+248,,12.90,75.03,Secretaria Executiva Regional do Centro de Fortaleza ( Sercefor ) (Fortaleza . RM Fortaleza),,2010,0.753,0.751,0.834,0.683,10.91,856.17
+249,,12.23,77.17,Secretaria Executiva Regional III ( SER III ) (Fortaleza . RM Fortaleza),,2010,0.800,0.796,0.870,0.738,11.02,1135.74
+250,,16.60,74.19,Secretaria Executiva Regional II ( SER II ) (Fortaleza . RM Fortaleza),,2010,0.737,0.696,0.820,0.700,10.39,607.76
+251,,8.60,80.04,Secretaria Executiva Regional I ( SER I ) (Fortaleza . RM Fortaleza),,2010,0.856,0.906,0.917,0.755,10.78,2246.73
+252,,18.90,72.77,Secretaria Executiva Regional IV ( SER IV ) (Fortaleza . RM Fortaleza),,2010,0.719,0.679,0.796,0.687,10.59,546.40
+253,,13.39,76.29,Secretaria Executiva Regional VI ( SER VI ) (Fortaleza . RM Fortaleza),,2010,0.791,0.764,0.855,0.759,10.99,929.12
+254,,16.00,74.58,Secretaria Executiva Regional V ( SER V ) (Fortaleza . RM Fortaleza),,2010,0.733,0.716,0.826,0.666,10.01,690.42
+255,,20.30,72.24,Durval de Barros (Ibirité . RM Belo Horizonte),,2010,0.693,0.650,0.787,0.652,10.28,457.02
+256,,20.40,72.01,Parque Elizabeth (Ibirité . RM Belo Horizonte),,2010,0.668,0.650,0.784,0.584,9.57,457.62
+257,,19.20,72.65,Sede (Ibirité . RM Belo Horizonte),,2010,0.692,0.659,0.794,0.634,9.99,483.27
+258,,14.90,75.30,Regional 01 ( Centro ) (Jaboatão dos Guararapes . RM Recife),,2010,0.726,0.705,0.838,0.649,9.92,644.14
+259,,24.03,71.31,Regional 02 ( Cavaleiro ) (Jaboatão dos Guararapes . RM Recife),,2010,0.663,0.624,0.772,0.606,9.49,388.60
+260,,24.55,71.07,Regional 03 ( Curado ) (Jaboatão dos Guararapes . RM Recife),,2010,0.662,0.614,0.768,0.614,9.69,364.85
+261,,19.34,73.47,Regional 04 ( Muribeca ) (Jaboatão dos Guararapes . RM Recife),,2010,0.716,0.673,0.808,0.676,10.48,527.90
+262,,23.68,71.47,Regional 05 ( Prazeres ) (Jaboatão dos Guararapes . RM Recife),,2010,0.679,0.623,0.775,0.647,9.54,385.04
+263,,22.86,71.85,Regional 06 ( Praias ) (Jaboatão dos Guararapes . RM Recife),,2010,0.666,0.633,0.781,0.597,8.96,409.96
+264,,14.82,75.55,Regional 07 ( Guararapes ) (Jaboatão dos Guararapes . RM Recife),,2010,0.784,0.800,0.843,0.714,9.93,1163.37
+265,,26.20,70.31,RA-1 (Maceió . RM Maceió),,2010,0.650,0.619,0.755,0.588,9.06,375.99
+266,,10.92,78.57,RA-2 (Maceió . RM Maceió),,2010,0.878,0.902,0.893,0.839,11.49,2187.16
+267,,23.01,72.15,RA-3 (Maceió . RM Maceió),,2010,0.681,0.666,0.786,0.602,8.99,504.35
+268,,13.34,76.72,RA-4 (Maceió . RM Maceió),,2010,0.817,0.862,0.862,0.735,10.56,1705.93
+269,,26.00,71.11,RA-5 (Maceió . RM Maceió),,2010,0.665,0.657,0.769,0.582,9.63,478.54
+270,,21.40,72.75,RA-6 (Maceió . RM Maceió),,2010,0.700,0.705,0.796,0.610,9.60,642.80
+271,,27.88,70.55,RA-7 (Maceió . RM Maceió),,2010,0.647,0.641,0.759,0.556,8.91,431.56
+272,,25.30,71.34,RA-8 (Maceió . RM Maceió),,2010,0.675,0.646,0.772,0.617,9.72,445.70
+273,,19.80,73.36,ZONA CENTRO-OESTE (Manaus . RM Manaus),,2010,0.701,0.740,0.806,0.577,9.45,797.73
+274,,14.27,75.76,ZONA CENTRO-SUL (Manaus . RM Manaus),,2010,0.766,0.745,0.846,0.714,10.27,826.42
+275,,10.44,78.51,ZONA LESTE ( Jorge Teixeira. Tancredo Neves. São José Operário. Gilberto Mestrinho. Zumbi dos Palmares. Armando Mendes) (Manaus . RM Manaus),,2010,0.850,0.896,0.892,0.768,10.82,2114.37
+276,,20.90,71.67,ZONA NORTE (Manaus . RM Manaus),,2010,0.659,0.624,0.778,0.590,9.12,388.42
+277,,18.50,73.04,ZONA OESTE (Ponta Negra. Tarumã. Tarumã-Açu) (Manaus . RM Manaus),,2010,0.702,0.674,0.801,0.640,9.75,531.65
+278,,9.50,79.26,ZONA OESTE (Santo Agostinho. Compensa. São Jorge. Vila da Prata. Santo Antônio. São Raimundo. Glória) (Manaus . RM Manaus),,2010,0.770,0.924,0.904,0.547,8.40,2510.57
+279,,15.90,74.66,ZONA SUL (Presidente Vargas. Nossa Senhora Aparecida. Centro. Praça 14 de Janeiro. Cachoeirinha) (Manaus . RM Manaus),,2010,0.735,0.721,0.828,0.666,10.21,708.98
+280,,12.22,77.23,ZONA SUL / ZONA LESTE ( Educandos. Santa Luzia. Colônia Oliveira Machado. Morro da Liberdade. São Lázaro. Betânia. Crespo. Vila Buriti. Distrito Industrial I / Mauazinho. Colônia Antônio Aleixo. Distrito Industrial II. Puraquequara ) (Manaus . RM Manaus),,2010,0.806,0.796,0.871,0.754,10.39,1133.62
+281,,18.53,72.65,ZONA SUL / ZONA LESTE( Raiz. Japiim. São Francisco. Petrópolis / Coroado) (Manaus . RM Manaus),,2010,0.690,0.666,0.794,0.622,9.38,503.26
+282,,15.25,75.06,R.A. LESTE (Natal . RM Natal),,2010,0.762,0.730,0.834,0.728,10.39,753.03
+283,,12.07,77.26,R.A. NORTE (Natal . RM Natal),,2010,0.817,0.857,0.871,0.730,10.46,1653.82
+284,,20.97,72.02,R.A. OESTE (Natal . RM Natal),,2010,0.696,0.658,0.784,0.654,10.09,481.03
+285,,20.44,72.24,R.A. SUL (Natal . RM Natal),,2010,0.687,0.668,0.787,0.616,9.80,512.40
+286,,9.55,79.30,Expansão Sul (Nova Lima . RM Belo Horizonte),,2010,0.876,0.879,0.905,0.846,11.24,1905.16
+287,,7.70,80.86,Sede (Nova Lima . RM Belo Horizonte),,2010,0.883,0.991,0.931,0.746,10.54,3820.20
+288,,12.60,76.88,Centro (Porto Alegre . RM Porto Alegre),,2010,0.759,0.738,0.865,0.684,9.69,789.21
+289,,6.30,80.72,Centro Sul (Porto Alegre . RM Porto Alegre),,2010,0.935,0.984,0.929,0.894,11.58,3646.91
+290,,10.20,77.06,Cristal (Porto Alegre . RM Porto Alegre),,2010,0.797,0.817,0.868,0.713,10.59,1294.89
+291,,8.80,78.22,Cruzeiro (Porto Alegre . RM Porto Alegre),,2010,0.809,0.858,0.887,0.695,9.51,1665.45
+292,,11.40,76.07,Eixo Baltazar (Porto Alegre . RM Porto Alegre),,2010,0.747,0.797,0.851,0.614,8.82,1139.73
+293,,11.50,75.95,Extremo Sul (Porto Alegre . RM Porto Alegre),,2010,0.779,0.785,0.849,0.709,10.13,1057.42
+294,,12.60,75.10,Glória (Porto Alegre . RM Porto Alegre),,2010,0.714,0.756,0.835,0.576,9.96,881.30
+295,,12.10,75.48,Humaitá / Navegantes (Porto Alegre . RM Porto Alegre),,2010,0.733,0.775,0.841,0.605,10.01,994.49
+296,,11.20,76.22,Ilhas (Porto Alegre . RM Porto Alegre),,2010,0.765,0.807,0.854,0.649,10.29,1216.93
+297,,15.20,73.27,Leste (Porto Alegre . RM Porto Alegre),,2010,0.659,0.705,0.805,0.504,11.09,642.58
+298,,9.70,77.42,Lomba do Pinheiro (Porto Alegre . RM Porto Alegre),,2010,0.777,0.831,0.874,0.646,10.26,1409.81
+299,,15.10,73.35,Nordeste (Porto Alegre . RM Porto Alegre),,2010,0.683,0.691,0.806,0.571,8.81,590.83
+300,,17.70,71.67,Noroeste (Porto Alegre . RM Porto Alegre),,2010,0.638,0.655,0.778,0.509,8.44,469.88
+301,,7.20,79.80,Norte (Porto Alegre . RM Porto Alegre),,2010,0.890,0.921,0.913,0.837,11.30,2470.49
+302,,12.80,74.95,Partenon (Porto Alegre . RM Porto Alegre),,2010,0.729,0.750,0.833,0.620,9.98,852.07
+303,,11.40,76.04,Restinga (Porto Alegre . RM Porto Alegre),,2010,0.764,0.795,0.851,0.659,9.82,1127.81
+304,,15.30,73.18,Sul (Porto Alegre . RM Porto Alegre),,2010,0.685,0.705,0.803,0.567,8.74,644.32
+305,,8.50,78.50,RPA 1 ( Centro ) (Recife . RM Recife),,2010,0.843,0.897,0.892,0.750,10.19,2127.79
+306,,18.73,73.75,RPA 2 ( Norte ) (Recife . RM Recife),,2010,0.743,0.758,0.813,0.665,9.34,892.79
+307,,19.53,73.38,RPA 3 ( Noroeste ) (Recife . RM Recife),,2010,0.726,0.716,0.806,0.663,9.73,689.13
+308,,17.21,74.45,RPA 4 ( Oeste ) (Recife . RM Recife),,2010,0.786,0.837,0.824,0.703,9.97,1458.11
+309,,14.89,75.52,RPA 5 ( Sudoeste ) (Recife . RM Recife),,2010,0.780,0.782,0.842,0.720,10.00,1037.03
+310,,18.32,73.94,RPA 6 ( Sul ) (Recife . RM Recife),,2010,0.723,0.695,0.816,0.667,9.62,603.36
+311,,14.56,75.67,Justinópolis (Ribeirão das Neves . RM Belo Horizonte),,2010,0.808,0.856,0.845,0.729,10.05,1650.30
+312,,19.50,72.50,Sede (Ribeirão das Neves . RM Belo Horizonte),,2010,0.675,0.657,0.792,0.591,9.30,478.61
+313,,18.30,73.18,Veneza ( 040 ) (Ribeirão das Neves . RM Belo Horizonte),,2010,0.686,0.668,0.803,0.603,9.50,510.48
+314,,21.00,71.68,Barra / Jacarepaguá (Rio de Janeiro . RM do Rio de Janeiro),,2010,0.661,0.646,0.778,0.575,9.20,445.88
+315,,10.00,78.25,Centro (Rio de Janeiro . RM do Rio de Janeiro),,2010,0.835,0.900,0.888,0.729,9.85,2165.44
+316,,12.30,76.32,Grande Tijuca (Rio de Janeiro . RM do Rio de Janeiro),,2010,0.760,0.785,0.855,0.653,9.08,1059.27
+317,,9.00,79.22,Ilha do Governador (Rio de Janeiro . RM do Rio de Janeiro),,2010,0.885,0.937,0.904,0.818,10.48,2724.92
+318,,11.10,77.37,Maré (Rio de Janeiro . RM do Rio de Janeiro),,2010,0.818,0.830,0.873,0.756,9.96,1397.59
+319,,16.60,73.25,Meier (Rio de Janeiro . RM do Rio de Janeiro),,2010,0.674,0.661,0.804,0.575,8.66,489.79
+320,,10.50,77.80,Pavuna (Rio de Janeiro . RM do Rio de Janeiro),,2010,0.833,0.836,0.880,0.787,10.15,1450.37
+321,,15.80,73.76,Vigário (Rio de Janeiro . RM do Rio de Janeiro),,2010,0.721,0.698,0.813,0.660,9.06,616.34
+322,,12.90,75.87,Zona Norte (Rio de Janeiro . RM do Rio de Janeiro),,2010,0.762,0.754,0.848,0.692,9.49,870.62
+323,,12.70,76.05,Zona Oeste (Rio de Janeiro . RM do Rio de Janeiro),,2010,0.771,0.754,0.851,0.713,9.82,873.45
+324,,14.80,74.49,Zona Sul (Rio de Janeiro . RM do Rio de Janeiro),,2010,0.742,0.723,0.825,0.686,9.53,717.80
+325,,8.30,79.86,Carvalho de Brito (Sabará . RM Belo Horizonte),,2010,0.901,1.000,0.914,0.801,10.01,4075.29
+326,,15.60,74.82,Sede (Sabará . RM Belo Horizonte),,2010,0.723,0.695,0.830,0.654,9.30,604.20
+327,,14.60,75.51,Av. das Indústrias (Santa Luzia . RM Belo Horizonte),,2010,0.745,0.705,0.842,0.697,9.78,644.59
+328,,14.00,75.85,São Benedito (Santa Luzia . RM Belo Horizonte),,2010,0.733,0.715,0.848,0.649,9.98,683.03
+329,,18.50,73.06,Sede (Santa Luzia . RM Belo Horizonte),,2010,0.691,0.667,0.801,0.618,10.22,508.26
+330,,15.10,75.17,Aricanduva / Vila Formosa (São Paulo . RM São Paulo),,2010,0.716,0.698,0.836,0.629,9.76,615.61
+331,,10.30,78.20,Butantã (São Paulo . RM São Paulo),,2010,0.822,0.831,0.887,0.754,10.91,1411.11
+332,,8.50,79.70,Campo Limpo (São Paulo . RM São Paulo),,2010,0.859,0.932,0.912,0.746,10.15,2634.84
+333,,10.50,78.00,Capela do Socorro (São Paulo . RM São Paulo),,2010,0.783,0.810,0.883,0.670,10.06,1236.35
+334,,14.40,75.22,Casa Verde (São Paulo . RM São Paulo),,2010,0.750,0.745,0.837,0.677,10.45,824.23
+335,,10.60,77.95,Cidade Ademar (São Paulo . RM São Paulo),,2010,0.799,0.792,0.883,0.730,10.55,1104.70
+336,,12.40,76.62,Cidade Tiradentes (São Paulo . RM São Paulo),,2010,0.758,0.771,0.860,0.658,10.00,971.76
+337,,18.20,72.87,Ermelino Matarazzo (São Paulo . RM São Paulo),,2010,0.708,0.670,0.798,0.664,9.73,516.64
+338,,13.30,75.97,Freguesia do Ó / Brasilândia (São Paulo . RM São Paulo),,2010,0.777,0.747,0.850,0.738,10.88,837.54
+339,,12.90,76.22,Guaianases (São Paulo . RM São Paulo),,2010,0.762,0.748,0.854,0.692,10.54,840.72
+340,,17.30,73.39,Ipiranga (São Paulo . RM São Paulo),,2010,0.713,0.681,0.807,0.660,10.31,554.23
+341,,10.10,78.33,Itaim Paulista (São Paulo . RM São Paulo),,2010,0.824,0.839,0.889,0.750,10.84,1482.28
+342,,17.20,73.45,Itaquera (São Paulo . RM São Paulo),,2010,0.725,0.691,0.808,0.683,10.18,587.95
+343,,14.60,75.08,Jabaquara (São Paulo . RM São Paulo),,2010,0.758,0.737,0.835,0.709,10.52,784.72
+344,,9.90,78.51,Jaçanã / Tremembé (São Paulo . RM São Paulo),,2010,0.816,0.845,0.892,0.720,10.46,1539.14
+345,,12.70,76.36,Lapa (São Paulo . RM São Paulo),,2010,0.768,0.758,0.856,0.699,10.04,892.54
+346,,7.70,80.40,MBoi Mirim (São Paulo . RM São Paulo),,2010,0.906,0.976,0.923,0.826,11.33,3468.59
+347,,16.70,73.77,Mooca (São Paulo . RM São Paulo),,2010,0.716,0.700,0.813,0.646,9.83,624.23
+348,,8.70,79.53,Parelheiros (São Paulo . RM São Paulo),,2010,0.869,0.907,0.909,0.797,11.09,2262.48
+349,,20.60,71.58,Penha (São Paulo . RM São Paulo),,2010,0.680,0.664,0.776,0.610,9.80,499.68
+350,,10.80,77.77,Perus (São Paulo . RM São Paulo),,2010,0.804,0.786,0.880,0.750,10.91,1064.38
+351,,16.80,73.72,Pinheiros (São Paulo . RM São Paulo),,2010,0.731,0.698,0.812,0.689,10.35,615.08
+352,,6.30,81.74,Pirituba / Jaraguá (São Paulo . RM São Paulo),,2010,0.942,1.000,0.946,0.885,11.69,6125.59
+353,,11.60,77.17,Santana / Tucuruvi (São Paulo . RM São Paulo),,2010,0.787,0.774,0.870,0.724,10.71,989.02
+354,,9.10,79.19,Santo Amaro (São Paulo . RM São Paulo),,2010,0.869,0.898,0.903,0.810,11.47,2134.88
+355,,7.60,80.53,São Mateus (São Paulo . RM São Paulo),,2010,0.909,0.986,0.926,0.822,11.23,3688.01
+356,,15.70,74.37,São Miguel Paulista (São Paulo . RM São Paulo),,2010,0.732,0.712,0.823,0.668,10.18,673.75
+357,,15.80,74.30,Sé (São Paulo . RM São Paulo),,2010,0.736,0.705,0.822,0.687,10.66,641.58
+358,,7.80,80.33,Vila Mariana (São Paulo . RM São Paulo),,2010,0.889,0.947,0.922,0.805,10.83,2894.76
+359,,6.70,81.35,Vila Maria / Vila Guilherme (São Paulo . RM São Paulo),,2010,0.938,1.000,0.939,0.878,11.87,5065.00
+360,,10.70,77.88,Vila Prudente (São Paulo . RM São Paulo),,2010,0.793,0.787,0.881,0.718,10.37,1072.66
+361,,11.80,77.02,Sede (Vespasiano . RM Belo Horizonte),,2010,0.785,0.773,0.867,0.721,10.56,980.34
+362,,12.80,76.75,Vila Esportiva (Vespasiano . RM Belo Horizonte),,2010,0.762,0.736,0.863,0.696,9.51,778.97
+363,,20.40,71.96,Bento Ferreira / Jucutuquara (Vitória . RM Grande Vitória),,2010,0.655,0.649,0.783,0.554,8.61,453.50
+364,,12.40,76.26,Centro (Vitória . RM Grande Vitória),,2010,0.804,0.814,0.854,0.747,10.12,1269.35
+365,,9.70,78.57,Continente (Vitória . RM Grande Vitória),,2010,0.841,0.851,0.893,0.784,10.68,1595.45
+366,,8.50,79.69,Maruípe (Vitória . RM Grande Vitória),,2010,0.907,0.918,0.912,0.891,11.27,2421.34
+367,,13.20,75.63,Praia do Canto (Vitória . RM Grande Vitória),,2010,0.771,0.742,0.844,0.731,9.69,811.31
+368,,7.40,80.77,Santo Antônio (Vitória . RM Grande Vitória),,2010,0.949,1.000,0.930,0.919,11.44,5125.27
+369,,14.50,74.67,São Pedro (Vitória . RM Grande Vitória),,2010,0.757,0.716,0.828,0.731,9.58,688.07
+370,,18.10,72.25,Brasil,,2010,0.700,0.660,0.788,0.659,9.52,486.24
+371,,30.57,,Barreiro (Belo Horizonte . RM Belo Horizonte),,2000,0.612,0.692,0.727,0.456,8.76,592.46
